@@ -12,29 +12,25 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #1B2021;
     padding: 9px;
-    color: #FFD9DA;
+    color: #333366;
     opacity: 0.8;
 }
 
-.navbar_logo {
-    /* border: 2px solid black; */
-    font-size: 36px;
-    font-weight: bold;
-    color: #FFD9DA;
+.navbar_mid {
+    font-weight: 500;
 }
 
-.navbar_mid {
-    /* border: 2px solid black; */
-    color: #FFD9DA;
+.navbar_logo {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .navbar_mid a {
     padding: 0 15px;
     list-style: none;
     text-decoration: none;
-    color: #FFD9DA;
+    font-weight: 600;
 }
 
 .navbar_mid li a:hover {
@@ -44,16 +40,14 @@
 
 .center {
     top: 50%;
-    /* left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute; */
-    width: 50px;
+    width: 35px;
+    height: 32px;
 }
 
 .center:before,
 .center:after,
 .center div {
-    background: #FFD9DA;
+    background: #333366;
     content: "";
     display: block;
     height: 6px;
@@ -104,4 +98,25 @@
     font-size: 15px;
     text-align: center;
     padding: 10px 0;
+}
+
+.custom-shape-divider-bottom-1669704438 {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669704438 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1669704438 .shape-fill {
+    fill: #FFFFFF;
 }
