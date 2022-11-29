@@ -73,3 +73,35 @@
 .center:hover div {
     transform: scale(0);
 }
+
+.firstSection {
+    height: 426px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+}
+
+.firstHalf {
+    width: 38%;
+    padding: 10px;
+}
+
+.secondHalf {
+    width: 25%;
+}
+
+.firstPera {
+    justify-content: center;
+    display: flex;
+    padding: 10px 0;
+}
+
+.secondPera {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
