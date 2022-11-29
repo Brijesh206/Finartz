@@ -6,15 +6,15 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.navbar {
+.navbar-m {
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: sticky;
+    background-color: #1C2321;
     top: 0;
     padding: 9px;
-    color: #333366;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .navbar_mid {
@@ -24,6 +24,7 @@
 .navbar_logo {
     font-size: 36px;
     font-weight: bold;
+    color: #DDE2E4;
 }
 
 .navbar_mid a {
@@ -31,11 +32,12 @@
     list-style: none;
     text-decoration: none;
     font-weight: 600;
+    color: #DDE2E4;
 }
 
 .navbar_mid li a:hover {
     color: #ff7f7f;
-    transition: .5s ease-in;
+    transition: .2s ease-in;
 }
 
 .center {
@@ -47,7 +49,7 @@
 .center:before,
 .center:after,
 .center div {
-    background: #333366;
+    background: #DDE2E4;
     content: "";
     display: block;
     height: 6px;
@@ -70,6 +72,7 @@
 
 .firstSection {
     height: 426px;
+    background-color: #7D98A1;
 }
 
 .box-main {
@@ -77,15 +80,31 @@
     justify-content: space-around;
     align-items: center;
     height: 75%;
+    padding-top: 25px;
 }
 
 .firstHalf {
     width: 38%;
     padding: 10px;
+    color: #FFFAE3;
+}
+
+.firstHalf div{
+    display: flex;
+    justify-content: center;
+    padding: 11px 0;
 }
 
 .secondHalf {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.secondHalf img{
+    width: 155%;
 }
 
 .firstPera {
@@ -98,11 +117,12 @@
     font-size: 15px;
     text-align: center;
     padding: 10px 0;
+    line-height: 1.5;
 }
 
-.custom-shape-divider-bottom-1669704438 {
+.custom-shape-divider-bottom-1669726152 {
     position: absolute;
-    /* bottom: 0; */
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -110,13 +130,13 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1669704438 svg {
+.custom-shape-divider-bottom-1669726152 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 500px;
+    width: calc(127% + 1.3px);
+    height: 130px;
 }
 
-.custom-shape-divider-bottom-1669704438 .shape-fill {
+.custom-shape-divider-bottom-1669726152 .shape-fill {
     fill: #FFFFFF;
 }

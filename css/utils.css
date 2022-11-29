@@ -25,3 +25,33 @@
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(120, 9, 121, 1) 34%, rgba(0, 212, 255, 1) 100%);
 }
+
+.btn {
+    color: #EEF1EF;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-light{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn-light:hover{
+    background-color: rgb(219, 219, 219);
+    transition: .3s ease-in-out;
+}
+
+.btn-dark{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn-dark:hover{
+    background-color: rgb(54, 49, 49);
+    transition: .3s ease-in-out;
+}
