@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #1B2021;
+    padding: 9px;
+    color: #FFD9DA;
+    opacity: 0.8;
+}
+
+.navbar_logo {
+    /* border: 2px solid black; */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFD9DA;
+}
+
+.navbar_mid {
+    /* border: 2px solid black; */
+    color: #FFD9DA;
+}
+
+.navbar_mid a {
+    padding: 0 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #FFD9DA;
+}
+
+.navbar_mid li a:hover {
+    color: #ff7f7f;
+    transition: .5s ease-in;
+}
+
+.center {
+    top: 50%;
+    /* left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute; */
+    width: 50px;
+}
+
+.center:before,
+.center:after,
+.center div {
+    background: #FFD9DA;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+}
+
+.center:hover:before {
+    transform: translateY(12px) rotate(135deg);
+}
+
+.center:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+.center:hover div {
+    transform: scale(0);
+}
