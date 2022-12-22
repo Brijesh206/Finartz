@@ -3,14 +3,20 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: 1.42857143;
     font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.42857143;
 }
 
 .navbar-m {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     background-color: #1C2321;
     top: 0;
     padding: 9px;
@@ -146,6 +152,7 @@
 
 .secondSection {
     background-color: var(--veryLightGray);
+    padding-bottom: 50px;
 }
 
 .title {
@@ -210,11 +217,11 @@ h1:last-of-type {
     border-radius: 5px;
     box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     padding: 30px;
-    margin: 20px;  
+    margin: 20px;
 }
 
 img {
-    float: right;
+    border: 0;
 }
 
 @media (max-width: 450px) {
@@ -233,12 +240,15 @@ img {
 .cyan {
     border-top: 3px solid var(--cyan);
 }
+
 .red {
     border-top: 3px solid var(--red);
 }
+
 .blue {
     border-top: 3px solid var(--blue);
 }
+
 .orange {
     border-top: 3px solid var(--orange);
 }
@@ -255,22 +265,90 @@ h2 {
         justify-content: center;
         align-items: center;
     }
-    
+
     .row2-container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .box-down {
         position: relative;
         top: 150px;
     }
+
     .box {
         width: 20%;
-     
+
     }
+
     .title-big p {
         width: 30%;
     }
-    
+
+}
+
+.card {
+    /* display: flex;
+    flex-direction: column; */
+    width: 32%;
+    background: #f8f8f8;
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 25%);
+}
+
+figure {
+    margin: 0;
+    display: block;
+}
+
+.card figure img {
+    width: 45px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.card h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 2rem 0 1rem 0;
+    color: #000;
+}
+
+.card p {
+    color: #000;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.wrapper {
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.heading span {
+    font-size: 22px;
+}
+
+.col-md-8,
+.col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
