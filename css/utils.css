@@ -55,3 +55,11 @@
     background-color: rgb(54, 49, 49);
     transition: .3s ease-in-out;
 }
+
+.border-top {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #ee3d32;
+    max-width: 100%;
+    width: 60px;
+}
