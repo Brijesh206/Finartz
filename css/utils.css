@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;500&display=swap');
 
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --black:hsl(90, 12%, 7%);
+    --bluishBlack: hsl(189, 11%, 37%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+
 .font-family-open-sans {
     font-family: 'Open Sans', sans-serif;
 }
@@ -48,12 +64,12 @@
 }
 
 .btn-dark{
-    background-color: black;
+    background-color: var(--black);
     color: whitesmoke;
 }
 
 .btn-dark:hover{
-    background-color: rgb(54, 49, 49);
+    background-color: var(--bluishBlack);
     transition: .3s ease-in-out;
     box-shadow: 0 3px 8px rgb(0 0 0 / 50%);
 }
@@ -74,4 +90,22 @@
     max-width: 100%;
     width: 60px;
     margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.padding-lr-80 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.padding-tb-7 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.color-grayishblue {
+    color: var(--grayishBlue);
 }

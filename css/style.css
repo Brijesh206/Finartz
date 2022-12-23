@@ -126,7 +126,7 @@ body {
     font-size: 15px;
     text-align: center;
     padding: 10px 0;
-    line-height: 1.5;
+    line-height: 1.9;
 }
 
 .custom-shape-divider-bottom-1669726152 {
@@ -278,7 +278,7 @@ h2 {
     }
 
     .box {
-        width: 20%;
+        width: 24%;
 
     }
 
@@ -351,4 +351,68 @@ img {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.contact-section {
+    background-color: var(--veryLightGray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upper-sec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.upper-sec p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.upper-sec span {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.lower-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ls-1,
+.ls-2,
+.ls-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+.ls-1,
+.ls-2,
+.ls-3 span{
+    color: var(--varyDarkBlue);
+}
+
+.email-address, .phone-number, .chat {
+    cursor: pointer;
+}
+
+.email-address:hover, .phone-number:hover, .chat:hover{
+    color: #ff7f7f;
+    transition: .2s ease-in;
+}
+
+.email-title, .phone-title, .chat-title {
+    font-size: 20px;
+    font-weight: bold;
 }
